@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
+- [Mastering GDAL Tools (Full Course)](https://courses.spatialthoughts.com/gdal-tools.html): Comprehensive course on GDAL/OGR command-line utilities for raster/vector processing, georeferencing, and spatial ETL pipelines. — [More in Geospatial](Geospatial.md)
 - [Recent high-severity wildfires in a dry-conifer landscape are unprecedented over five centuries and foretell future forest loss](https://www.pnas.org/doi/10.1073/pnas.2513731123): High-severity fire in the last 30 years is unprecedented in five centuries; only half of pre-1995 dry-conifer forest may remain by 2055. — [More in Fire](Fire.md)
 - [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): Karpathy's pattern for building personal knowledge bases using LLM agents. — [More in Software](Software.md)
-- [A national-scale sandy beach dataset for India derived from high-resolution satellite imagery and deep learning](https://www.nature.com/articles/s41597-026-07408-8): U-Net model maps sandy beach extents along India's entire coastline from LISS-IV imagery. — [More in Remote Sensing](Remote_Sensing.md)
 
 ## Topics
 
