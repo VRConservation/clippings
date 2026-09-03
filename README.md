@@ -1,4 +1,4 @@
-# NCRP Proactive Knowledge Base
+# Clippings Knowledge Base
 
 A searchable, themed website generated from an [Obsidian](https://obsidian.md/)
 vault of notes on proactive finance and insurance in the face of climate
