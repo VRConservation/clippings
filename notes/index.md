@@ -1,61 +1,61 @@
-# Index
+# Clippings
 
-
-**Summary**: Table of contents of all note topic pages, organized around insurance, proactive finance, sea level rise, flooding, and fire.
-**Last updated**: 09-01-2026.
+**Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
+**Last updated**: 09-03-2026.
 
 ---
 
 ## Overview
 
-A searchable, themed website generated from an [Obsidian](https://obsidian.md/) vault of notes on proactive finance and insurance in the face of climate risk — wildfire, flooding, sea level rise, and the future of property insurance. Published automatically to GitHub Pages on every push to `main`.
-
-This repository combines the vault itself (a `notes/` folder of markdown topic pages) with an [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) site configuration, and an `AGENTS.md` playbook that [opencode](https://opencode.ai) follows to file new notes into the right pages automatically.
+A searchable website generated from an [Obsidian](https://obsidian.md/) vault of clipped notes and bookmarks. New clippings drop into this folder via the Obsidian Web Clipper; opencode reads each file's frontmatter `tags` and files it into the right topic page. Published automatically to GitHub Pages on every push to `main`.
 
 ## Latest Finds
 
-- [California's home insurer of last resort seeks 36% rate hike](https://www.latimes.com/business/story/2025-10-04/californias-home-insurer-of-last-resort-seeks-36-rate-hike-following-january-fires): The California FAIR Plan seeks its largest rate increase in years after billions in January firestorm losses. [Keywords: `FAIR Plan` `rate hike` `insurer of last resort` `California`] — [More in Fire](Fire.md)
-- [Is California becoming Uninsurable](https://www.insuranceforgood.org/blog/is-california-becoming-uninsurable): Kousky on how the 2017/18 fires stressed California's insurance market and the case for risk reduction and assistance for lower-income households. [Keywords: `insurability` `market stress` `risk reduction` `FAIR Plan`] — [More in Insurance](Insurance.md)
-- [Is the future insurable?](https://static1.squarespace.com/static/629aa6f68914ce47a1d72993/t/689d3c2fbb79ac401be73a8d/1755135023586/Is+the+future+insurable_+2025.pdf#page=4.06): Climate change challenges property insurance through technical, economic, and political limits, narrowing the window of insurability. [Keywords: `insurability` `climate-risk` `parametric` `adaptation`] — [More in Climate](Climate.md)
+- [Recent high-severity wildfires in a dry-conifer landscape are unprecedented over five centuries and foretell future forest loss](https://www.pnas.org/doi/10.1073/pnas.2513731123): High-severity fire in the last 30 years is unprecedented in five centuries; only half of pre-1995 dry-conifer forest may remain by 2055. — [More in Fire](Fire.md)
+- [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): Karpathy's pattern for building personal knowledge bases using LLM agents. — [More in Software](Software.md)
+- [A national-scale sandy beach dataset for India derived from high-resolution satellite imagery and deep learning](https://www.nature.com/articles/s41597-026-07408-8): U-Net model maps sandy beach extents along India's entire coastline from LISS-IV imagery. — [More in Remote Sensing](Remote_Sensing.md)
 
 ## Topics
 
-**Insurance**
+### Risk & Environment
 
-- [[Insurance]] — Hub page for property insurance under climate risk: market stress, insurability, FAIR Plan, reform and policy.
+<div class="grid cards group-fire" markdown>
 
-**Fire**
+- :material-fire: **[Fire](Fire.md)**
 
-- [[Fire]] — Wildfire insurance (FAIR Plan, mitigation discounts, home hardening, prescribed fire, utilities), plus fire science and forest resilience.
+- :material-office-building: **[Insurance](Insurance.md)**
 
-**NBS**
+</div>
 
-- [[NBS]] — Nature-based solutions for disaster risk reduction and insurance-driven tools that rebuild stronger and greener.
+### Software & AI
 
-**Climate**
+<div class="grid cards group-software" markdown>
 
-- [[Climate]] — Climate risk and insurability, insurer climate disclosures, insurance as a resilience tool.
+- :material-code-tags: **[Software](Software.md)**
 
-**Flooding**
+</div>
 
-- [[Flooding]] — Flood insurance (NFIP, community-based, parametric), flood risk, managed retreat, and infrastructure limits.
+### Geospatial & Data
 
-**Funding**
+<div class="grid cards group-geospatial" markdown>
 
-- [[Funding]] — Financing and funding resilience (municipal bonds, grants, investment) plus parametric and index-based insurance.
+- :material-map: **[Geospatial](Geospatial.md)**
 
-**SLR**
+- :material-satellite-variant: **[Remote Sensing](Remote_Sensing.md)**
 
-- [[SLR]] — Insurance and finance strategies for sea level rise resilience (e.g., Humboldt Bay).
+</div>
 
-**Data**
+### Other
 
-- [[Data]] — Risk data, catastrophe modeling, WUI Data Commons, and homeowners insurance data.
+<div class="grid cards group-other" markdown>
 
-**Community**
+- :material-dumbbell: **[Exercise](Exercise.md)**
 
-- [[Community]] — Community-based catastrophe insurance (CBCI), group/meso-insurance, insurance innovation for low-income households.
+- :material-dots-horizontal: **[Misc](Misc.md)**
+
+</div>
 
 ## See also
 
 - [[log|Log]] — append-only record of all operations.
+- [[Catalog|Catalog]] — auto-generated inventory of all topic pages.

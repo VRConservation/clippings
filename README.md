@@ -1,56 +1,49 @@
 # Clippings Knowledge Base
 
-A searchable, themed website generated from an [Obsidian](https://obsidian.md/)
-vault of notes on proactive finance and insurance in the face of climate
-risk — wildfire, flooding, sea level rise, and the future of property
-insurance. Published automatically to GitHub Pages on every push to `main`.
+A searchable personal knowledge base generated from an [Obsidian](https://obsidian.md/)
+vault of clipped notes and bookmarks. New web clippings land in the repo root
+via the Obsidian Web Clipper; opencode reads each file's frontmatter `tags` and
+files it into the right topic page in `notes/`. Published automatically to
+GitHub Pages on every push to `main`.
 
-This repository combines the vault itself (a `notes/` folder of markdown
-topic pages) with an [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
-site configuration, and an `AGENTS.md` playbook that [opencode](https://opencode.ai)
-follows to file new notes into the right pages automatically.
+The site uses an [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+layout styled after [spatialthoughts/notes](https://spatialthoughts.github.io/notes/),
+with a grid-cards home page grouped by theme.
 
 ## Live site
 
-- [ncrp-pkb](https://3point.xyz/ncrp-pkb) — main site
-- [Repository](https://github.com/VRConservation/ncrp-pkb)
+- [Clippings](https://vrconservation.github.io/clippings/) — main site
+- [Repository](https://github.com/VRConservation/clippings)
 
 ## What's included
 
 | File / folder | Purpose |
 |---|---|
-| `notes/` | The vault's published pages — this is the MkDocs `docs_dir` and also just a normal folder of Markdown files, so it works in Obsidian too. |
-| `notes/index.md` | Table of contents + "Latest Finds" highlights, shown as the site's home page. |
+| `notes/` | The vault's published topic pages — this is the MkDocs `docs_dir` and also a normal folder of Markdown files, so it works in Obsidian too. |
+| `notes/index.md` | Grid-cards table of contents + "Latest Finds" highlights, shown as the site's home page. |
 | `notes/log.md` | Append-only changelog of ingestion operations. |
-| `raw/` | Drop new, unprocessed notes here (`New_Notes.md` is the inbox file). |
-| `AGENTS.md` | Instructions opencode follows to process notes from `raw/` into topic pages in `notes/`, and to keep the site in sync. |
+| `notes/Catalog.md` | Auto-generated inventory of all topic pages and note counts (do not edit by hand). |
+| `processed/` | Clippings that have been ingested into `notes/` (gitignored, stays local, never pushed). |
+| `AGENTS.md` | Instructions opencode follows to process clippings from the repo root into topic pages in `notes/`, and to keep the site in sync. |
 | `mkdocs.yml` | Site configuration — theme, navigation, plugins. |
-| `hooks.py` | Adds a live note-count, e.g. `Fire (20)`, next to each topic in the site navigation. |
+| `hooks.py` | Auto-generates `Catalog.md` and adds a live note-count, e.g. `Fire (3)`, next to each topic in the site navigation. |
 | `requirements.txt` | Pinned Python packages needed to build the site. |
 | `.github/workflows/deploy.yml` | GitHub Actions workflow that builds and deploys the site to GitHub Pages on every push to `main`. |
 | `.obsidian/` | Minimal Obsidian vault config, so this folder opens as a vault immediately. |
 
-## Topics
+## How it works
 
-The vault organizes notes around property insurance and resilience under
-climate risk. See `notes/index.md` for the current table of contents:
-
-- Insurance (hub)
-- Fire — wildfire insurance (FAIR Plan, mitigation, prescribed fire, utilities), fire science
-- NBS — nature-based solutions and insurance-driven resilience tools
-- Climate — insurability under climate risk, climate disclosures
-- Flooding — NFIP, community-based and parametric flood insurance, managed retreat
-- Funding — municipal bonds, resilience investment, parametric insurance
-- SLR — sea level rise resilience and coastal financing
-- Data — catastrophe modeling, WUI Data Commons
-- Community — community-based catastrophe insurance (CBCI)
+Each clipping is a Markdown file with YAML frontmatter, including a `tags`
+field. The `tags` field drives the organization — each tag maps to a topic page
+in `notes/`. See `notes/index.md` for the current list of topics.
 
 ## Adding notes
 
-Drop a note (a URL, a clipped article, or plain text) into `raw/New_Notes.md`,
-then ask opencode to ingest it. It will read `AGENTS.md`, find or create the
-right topic page, add the entry with backlinks and keywords, update
-`notes/index.md` and `notes/log.md`, and sync the site.
+Drop a new clipped `.md` file into the repo root (or add a URL/plain text), then
+ask opencode to ingest it. It will read `AGENTS.md`, find or create the right
+topic page based on the frontmatter `tags`, add the entry with backlinks and
+keywords, update `notes/index.md` and `notes/log.md`, move the clipping to
+`processed/`, and sync the site.
 
 ## Local development
 

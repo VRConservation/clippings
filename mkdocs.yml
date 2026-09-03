@@ -1,7 +1,7 @@
-site_name: ncrp-pkb
-site_url: https://3point.xyz/ncrp-pkb
-repo_url: https://github.com/VRConservation/ncrp-pkb
-repo_name: ncrp-pkb
+site_name: Clippings
+site_url: https://vrconservation.github.io/clippings/
+repo_url: https://github.com/VRConservation/clippings
+repo_name: VRConservation/clippings
 edit_uri: edit/main/notes/
 
 docs_dir: notes
@@ -36,8 +36,15 @@ theme:
     - content.action.edit
     - toc.follow
 
+extra_css:
+  - stylesheets/extra.css
+
 hooks:
   - hooks.py
+
+plugins:
+  - search
+  - roamlinks
 
 markdown_extensions:
   - tables
@@ -49,22 +56,19 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
-
-plugins:
-  - search
-  - roamlinks
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home:
     - index.md
-    - Insurance: Insurance.md
     - Fire: Fire.md
-    - NBS: NBS.md
-    - Climate: Climate.md
-    - Flooding: Flooding.md
-    - Funding: Funding.md
-    - SLR: SLR.md
-    - Data: Data.md
-    - Community: Community.md
+    - Software: Software.md
+    - Geospatial: Geospatial.md
+    - Remote Sensing: Remote_Sensing.md
+    - Insurance: Insurance.md
+    - Exercise: Exercise.md
+    - Misc: Misc.md
     - Changelog: log.md
     - Catalog: Catalog.md

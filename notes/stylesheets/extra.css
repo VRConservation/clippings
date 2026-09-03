@@ -1,0 +1,15 @@
+/* Define group colors as variables for reuse */
+:root {
+  --color-fire:       #ffe8cc;
+  --color-software:   #cce5ff;
+  --color-geospatial: #ccf5d6;
+  --color-insurance:  #fffacc;
+  --color-other:      #e5ccff;
+}
+
+/* Topic section cards — all same color per group */
+.grid.cards.group-fire       > ul > li { background-color: var(--color-fire); }
+.grid.cards.group-software   > ul > li { background-color: var(--color-software); }
+.grid.cards.group-geospatial > ul > li { background-color: var(--color-geospatial); }
+.grid.cards.group-insurance  > ul > li { background-color: var(--color-insurance); }
+.grid.cards.group-other      > ul > li { background-color: var(--color-other); }
