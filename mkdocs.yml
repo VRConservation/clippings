@@ -1,0 +1,70 @@
+site_name: ncrp-pkb
+site_url: https://3point.xyz/ncrp-pkb
+repo_url: https://github.com/VRConservation/ncrp-pkb
+repo_name: ncrp-pkb
+edit_uri: edit/main/notes/
+
+docs_dir: notes
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+hooks:
+  - hooks.py
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - roamlinks
+
+nav:
+  - Home:
+    - index.md
+    - Insurance: Insurance.md
+    - Fire: Fire.md
+    - NBS: NBS.md
+    - Climate: Climate.md
+    - Flooding: Flooding.md
+    - Funding: Funding.md
+    - SLR: SLR.md
+    - Data: Data.md
+    - Community: Community.md
+    - Changelog: log.md
+    - Catalog: Catalog.md

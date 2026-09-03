@@ -1,0 +1,20 @@
+# Ingestion-pipeline source clippings — never tracked
+processed/
+
+# MkDocs build output
+site/
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python bytecode/cache
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+
+# Workflow/crosswalk
+toc_crosswalk.md
+workflow.md
