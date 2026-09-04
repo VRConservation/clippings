@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 09-03-2026.
+**Last updated**: 09-04-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [Mastering GDAL Tools (Full Course)](https://courses.spatialthoughts.com/gdal-tools.html): Comprehensive course on GDAL/OGR command-line utilities for raster/vector processing, georeferencing, and spatial ETL pipelines. — [More in Geospatial](Geospatial.md)
-- [Recent high-severity wildfires in a dry-conifer landscape are unprecedented over five centuries and foretell future forest loss](https://www.pnas.org/doi/10.1073/pnas.2513731123): High-severity fire in the last 30 years is unprecedented in five centuries; only half of pre-1995 dry-conifer forest may remain by 2055. — [More in Fire](Fire.md)
-- [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): Karpathy's pattern for building personal knowledge bases using LLM agents. — [More in Software](Software.md)
+- [Conservation Forecasting Annotated Bibliography](Forecasting.md): 11-source bibliography on Landscape Conservation Forecasting — STSMs, habitat suitability, and ecological departure under climate and management scenarios. — [More in Forecasting](Forecasting.md)
+- [A global dataset of forest disturbance regimes](https://essd.copernicus.org/articles/18/5895/2026/): First globally continuous dataset of forest disturbance regime parameters derived from satellite biomass observations. — [More in Forest](Forest.md)
+- [Evaluating AlphaEarth Foundations Embeddings for Wildfire Susceptibility](https://arxiv.org/abs/2608.12663): AEF embeddings achieve ROC-AUC > 0.92 for wildfire susceptibility with strong cross-region transferability. — [More in Fire](Fire.md)
 
 ## Topics
 
@@ -24,6 +24,10 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-fire: **[Fire](Fire.md)**
 
 - :material-office-building: **[Insurance](Insurance.md)**
+
+- :material-chart-line: **[Forecasting](Forecasting.md)**
+
+- :material-tree: **[Forest](Forest.md)**
 
 </div>
 
