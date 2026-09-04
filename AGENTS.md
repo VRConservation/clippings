@@ -26,6 +26,7 @@ Always `git pull` to fetch the latest changes from GitHub first.
 - Look at all `.md` files in the repo root (new clippings).
 - Process each file and all notes inside using the processing instructions below.
 - Once processed, move the original file to the `processed/` folder (gitignored). Note: the clipping is ingested into `notes/` as brief, searchable topic entries; the full source clipping stays in `processed/` for reference.
+- **MkDocs constraint**: `notes/` is the MkDocs `docs_dir`. Any `.md` file linked from a topic page (e.g. a long bibliography or source document) must also live inside `notes/` for the link to resolve on the published site. If a clipping's content is linked rather than summarized inline, copy the file into `notes/` before moving the original to `processed/`.
 
 ## Processing Instructions
 
