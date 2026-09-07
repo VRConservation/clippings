@@ -64,6 +64,7 @@ nav:
   - Home:
     - index.md
     - Fire: Fire.md
+    - Forecasting: Forecasting.md
     - Software: Software.md
     - Geospatial: Geospatial.md
     - Remote Sensing: Remote_Sensing.md
