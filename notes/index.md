@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 09-04-2026.
+**Last updated**: 09-07-2026.
 
 ---
 
@@ -11,7 +11,7 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [Conservation Forecasting Annotated Bibliography](Forecasting.md): 11-source bibliography on Landscape Conservation Forecasting — STSMs, habitat suitability, and ecological departure under climate and management scenarios. — [More in Forecasting](Forecasting.md)
+- [Conservation International — CPLUS QGIS plugin](https://conservationinternational.github.io/cplus-plugin/): Climate Positive Land Use Strategy (CPLUS) QGIS plugin for spatially-explicit land-use planning using natural climate solutions and carbon sequestration modeling. — [More in Forecasting](Forecasting.md)
 - [A global dataset of forest disturbance regimes](https://essd.copernicus.org/articles/18/5895/2026/): First globally continuous dataset of forest disturbance regime parameters derived from satellite biomass observations. — [More in Forest](Forest.md)
 - [Evaluating AlphaEarth Foundations Embeddings for Wildfire Susceptibility](https://arxiv.org/abs/2608.12663): AEF embeddings achieve ROC-AUC > 0.92 for wildfire susceptibility with strong cross-region transferability. — [More in Fire](Fire.md)
 
