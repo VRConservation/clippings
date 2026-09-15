@@ -64,6 +64,7 @@ nav:
   - Home:
     - index.md
     - Fire: Fire.md
+    - Forest: Forest.md
     - Forecasting: Forecasting.md
     - Software: Software.md
     - Geospatial: Geospatial.md
