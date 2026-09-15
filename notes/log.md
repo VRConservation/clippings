@@ -1,10 +1,11 @@
 # Log
 
 **Summary**: Append-only record of all ingestion operations.
-**Last updated**: 09-07-2026.
+**Last updated**: 09-15-2026.
 
 ---
 
+- 2026-09-15: Ingested "Removing dead trees after mass drought mortality enhances fire-adapted tree recruitment, reduces future fire severity, and has mixed effects on carbon stocks" (fire → Fire). Sorenson et al. 2025. Dead-tree removal boosts yellow pine seedling density 349%, reduces simulated fire severity after 20-year lag. Updated index Latest Finds.
 - 2026-09-07: Ingested "Conservation International — CPLUS QGIS plugin" (forecasting → Forecasting). CPLUS decision-support QGIS plugin for land-use planning using natural climate solutions, with carbon/financial modeling. Updated index Latest Finds.
 - 2026-09-03: Initial setup. Created tag-based topic pages from frontmatter tags in existing clippings and published to GitHub Pages.
 - 2026-09-03: Ingested "Mastering GDAL Tools (Full Course)" (geospatial → Geospatial). Updated index Latest Finds.

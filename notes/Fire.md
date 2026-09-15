@@ -1,10 +1,11 @@
 # Fire
 
 **Summary**: Wildfire science and AI-driven prediction — high-severity fire ecology, forest loss projections, and transparency of AI wildfire models.
-**Last updated**: 09-03-2026.
+**Last updated**: 09-15-2026.
 
 ---
 
+- [Removing dead trees after mass drought mortality enhances fire-adapted tree recruitment, reduces future fire severity, and has mixed effects on carbon stocks](https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2025.1691015/full): In Sierra Nevada mixed-conifer forests, removing dead trees after 2012–2016 drought mortality boosted shade-intolerant yellow pine seedling density by 349% while reducing shade-tolerant white fir seedlings by 55%. Total on-site carbon was 32% lower due to dead-tree removal, but FVS-FFE simulations predict a 20-year lag before treatment meaningfully reduces simulated fire severity and torch potential over the next century. Related: [[Fire]], [[Forest]]. Keywords: dead-tree removal, drought mortality, Sierra Nevada, fire severity, salvage logging, carbon stocks, mixed-conifer, regeneration
 - [Recent high-severity wildfires in a dry-conifer landscape are unprecedented over five centuries and foretell future forest loss](https://www.pnas.org/doi/10.1073/pnas.2513731123): High-severity fire severity in the Jemez Mountains over the past 30 years is unprecedented in 500 years. If current rates continue, only half of pre-1995 dry-conifer forest cover is projected to remain by 2055, and a quarter by 2115. Related: [[Fire]]. Keywords: high-severity fire, tree-ring, dry-conifer, forest loss, fire regime, climate
 - [The Smoke Clears: Why California's Headwaters Hold the Key to Stopping Catastrophic Wildfires](https://www.linkedin.com/pulse/smoke-clears-why-californias-headwaters-hold-key-stopping-60ywf): California's forested headwaters are central to breaking the cycle of catastrophic wildfires. Related: [[Fire]]. Keywords: wildfire, headwaters, California, forest management, fire prevention
 - [Wildfire AI models need more transparency before they can earn trust](https://www.devdiscourse.com/article/technology/3909324-wildfire-ai-models-need-more-transparency-before-they-can-earn-trust): A systematic review of 341 wildfire-prediction studies (2020-2025) finds only 7.7% provide public code, with deep learning dominating and high-burn regions underrepresented. Related: [[Fire]], [[Software]]. Keywords: wildfire, AI, machine learning, reproducibility, prediction, transparency
