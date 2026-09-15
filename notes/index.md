@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
+- [Land Use — Our World in Data](https://ourworldindata.org/land-use): Ritchie & Roser (2019) interactive reference on global land use — 49% of habitable land is agriculture, 78% of that is livestock. Includes Sankey diagram and CIWF biodiversity-loss report. — [More in Misc](Misc.md)
 - [Three Eras: The environmental movement needs a course correction](https://heavylifting.substack.com/p/three-eras): Selzer argues conservation must converge with free enterprise — 8,200+ energy projects queued for grid, $89B US insured cat losses in 2025. — [More in Confinance](Confinance.md)
 - [Removing dead trees after mass drought mortality enhances fire-adapted tree recruitment and reduces future fire severity](https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2025.1691015/full): Dead-tree removal after Sierra Nevada drought mortality boosts yellow pine seedlings 349% while reducing simulated fire severity over 100 years. — [More in Fire](Fire.md)
-- [Conservation International — CPLUS QGIS plugin](https://conservationinternational.github.io/cplus-plugin/): Climate Positive Land Use Strategy (CPLUS) QGIS plugin for spatially-explicit land-use planning using natural climate solutions and carbon sequestration modeling. — [More in Forecasting](Forecasting.md)
 
 ## Topics
 

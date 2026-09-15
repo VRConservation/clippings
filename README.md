@@ -1,3 +1,6 @@
+# Alias
+ingest runs the knowledge base from the terminal anywhere. It goes to the clippings folder then ingests the new clippings and spins them up to mkdocs folder.
+
 # Clippings Knowledge Base
 
 A searchable personal knowledge base generated from an [Obsidian](https://obsidian.md/)
