@@ -63,18 +63,18 @@ markdown_extensions:
 nav:
   - Home:
     - index.md
-    - Fire: Fire.md
-    - Forest: Forest.md
-    - Forecasting: Forecasting.md
-    - Software: Software.md
-    - Geospatial: Geospatial.md
-    - Remote Sensing: Remote_Sensing.md
-    - Insurance: Insurance.md
-    - Confinance: Confinance.md
     - Ag: Ag.md
     - Climate: Climate.md
+    - Confinance: Confinance.md
     - Exercise: Exercise.md
     - Exped: Exped.md
+    - Fire: Fire.md
+    - Forecasting: Forecasting.md
+    - Forest: Forest.md
+    - Geospatial: Geospatial.md
+    - Insurance: Insurance.md
     - Misc: Misc.md
+    - Remote Sensing: Remote_Sensing.md
+    - Software: Software.md
     - Changelog: log.md
     - Catalog: Catalog.md
