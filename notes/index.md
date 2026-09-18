@@ -21,19 +21,19 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 <div class="grid cards group-fire" markdown>
 
-- :material-fire: **[Fire](Fire.md)**
+- :material-sprout: **[Ag](Ag.md)**
 
-- :material-office-building: **[Insurance](Insurance.md)**
+- :material-weather-partly-cloudy: **[Climate](Climate.md)**
 
 - :material-cash-multiple: **[Confinance](Confinance.md)**
+
+- :material-fire: **[Fire](Fire.md)**
 
 - :material-chart-line: **[Forecasting](Forecasting.md)**
 
 - :material-tree: **[Forest](Forest.md)**
 
-- :material-sprout: **[Ag](Ag.md)**
-
-- :material-weather-partly-cloudy: **[Climate](Climate.md)**
+- :material-office-building: **[Insurance](Insurance.md)**
 
 </div>
 
@@ -60,6 +60,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 <div class="grid cards group-other" markdown>
 
 - :material-dumbbell: **[Exercise](Exercise.md)**
+
+- :material-compass: **[Exped](Exped.md)**
 
 - :material-dots-horizontal: **[Misc](Misc.md)**
 

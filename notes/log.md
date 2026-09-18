@@ -5,6 +5,7 @@
 
 ---
 
+- 2026-09-18: Reorganized clippings. Alphabetized tags in index TOC. Moved "Land Use — Our World in Data" (Misc → Ag), "How to Restore a Bootable USB to Normal" (Misc → Software). Created Exped topic page and moved "wild sea kayak adventures: solitude and swell" (Misc → Exped). Added Exped to nav and index.
 - 2026-09-18: Ingested "Ag and biodiversity" (Ag/Forest/Climate → Ag, Forest, Climate). Five sources: CIWF food-system impacts on biodiversity loss (Feb 2021); Chatham House on aligning food systems with climate and biodiversity targets (2022) and the emerging global crisis of land use (2023); AFF/Sorenson Family Forest Carbon Program co-benefits report; Mongabay commentary on wildlife and climate. Created Ag and Climate topic pages, updated Forest, nav, index, and Latest Finds.
 - 2026-09-18: Ingested "A1 Collision Density, 2000–2024" (geospatial → Geospatial). STATS19-based interactive collision-density visualization for the A1 with VisQuill/MapLibre.
 - 2026-09-18: Ingested "Global WPS LULC Static Data: ESA WorldCover 2021" (geospatial → Geospatial). 3 arc-sec WRF land-use field replacing default 1992-era USGS data, cross-mapped to USGS 24 categories.

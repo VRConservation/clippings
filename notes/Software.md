@@ -1,10 +1,11 @@
 # Software
 
 **Summary**: Software tools, AI-assisted note-taking workflows, and developer tooling.
-**Last updated**: 09-03-2026.
+**Last updated**: 09-18-2026.
 
 ---
 
+- [How to Restore a Bootable USB to Normal: Complete Recovery Guide](https://www.how2shout.com/how-to/how-to-restore-a-bootable-usb-to-normal-complete-recovery-guide.html): Restore a bootable USB to full normal capacity using DiskPart, Disk Utility, GParted, and command-line fixes on Windows, macOS, and Linux. Related: [[Software]]. Keywords: USB, diskpart, reformat, recovery, storage
 - [llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): Karpathy's pattern for building personal knowledge bases using LLM agents, designed to be copy-pasted into OpenCode, Claude Code, or Codex. Related: [[Software]]. Keywords: LLM, knowledge base, wiki, agent, opencode
 - [Claude + Obsidian: The cheat code for building a second brain that actually sticks](https://www.howtogeek.com/claude-obsidian-the-cheat-code-for-building-a-second-brain/): A workflow combining Obsidian for capturing ideas with Claude for organizing, tagging, and maintaining the knowledge base. Related: [[Software]]. Keywords: Obsidian, Claude, second brain, knowledge base, workflow
 - [NoiseCloud: Storing Data On YouTube](https://hackaday.com/2026/05/24/noisecloud-storing-data-on-youtube/): A proof-of-concept tool that encodes arbitrary file data into digital-noise video frames uploaded to YouTube as effectively unlimited storage. Related: [[Software]]. Keywords: data storage, YouTube, encoding, FFmpeg, proof of concept
