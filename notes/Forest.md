@@ -1,8 +1,10 @@
 # Forest
 
-**Summary**: Forest disturbance regimes, carbon cycling, and global biomass datasets derived from satellite observations.
-**Last updated**: 09-04-2026.
+**Summary**: Forest disturbance regimes, carbon cycling, biomass datasets, family-forest management, and wildfire policy.
+**Last updated**: 09-18-2026.
 
 ---
 
+- [With support from loggers and (some) environmentalists, Congress unites on major wildfire bill](https://www.latimes.com/environment/story/2026-09-10/congress-unites-on-fix-our-forests-act): LA Times on the bipartisan Fix Our Forests Act, which would expedite forest thinning on public and tribal lands by cutting environmental review (now averaging 5–7 years), expanding permitting exemptions to 10,000 acres and limiting litigation windows — splitting environmental groups (Sierra Club and Center for Biological Diversity oppose; Nature Conservancy supports). Related: [[Forest]], [[Fire]], [[Confinance]]. Keywords: Fix Our Forests Act, forest management, thinning, permitting reform, timber, environmental review, prescribed fire
+- [New Report: Family Forests Provide Millions in Benefits to Businesses and Communities](https://www.forestfoundation.org/why-we-do-it/family-forest-blog/new-report-family-forests-provide-millions-in-benefits-to-businesses-and-communities/): American Forest Foundation & Sorenson Impact Institute 'Beyond Carbon' report quantifies Family Forest Carbon Program co-benefits — $6.4M/yr healthcare savings from filtering air pollutants, 91% of properties having high importance to surface drinking water, $2.3M/yr regional economic output, and 54% higher financial outcomes for enrolled landowners. Related: [[Forest]], [[Confinance]], [[Climate]]. Keywords: carbon program, family forests, co-benefits, water quality, ecosystem services, healthcare savings, biodiversity
 - [A global dataset of forest disturbance regimes derived from satellite biomass observations](https://essd.copernicus.org/articles/18/5895/2026/): Novel framework derives four disturbance regime parameters (disturbance rate μ, gap-size α, severity β, background mortality Kb) from high-resolution satellite biomass data using an inverted ML model trained on 8M+ simulations. Produces first globally continuous, observationally constrained dataset at 25 km tile and 0.25° grid resolution with uncertainty layers. Related: [[Fire]], [[Remote_Sensing]]. Keywords: disturbance regimes, aboveground biomass, GlobBiomass, ESA CCI, carbon cycle, Earth System Models, stochastic disturbance

@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 09-15-2026.
+**Last updated**: 09-18-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [Land Use — Our World in Data](https://ourworldindata.org/land-use): Ritchie & Roser (2019) interactive reference on global land use — 49% of habitable land is agriculture, 78% of that is livestock. Includes Sankey diagram and CIWF biodiversity-loss report. — [More in Misc](Misc.md)
-- [Three Eras: The environmental movement needs a course correction](https://heavylifting.substack.com/p/three-eras): Selzer argues conservation must converge with free enterprise — 8,200+ energy projects queued for grid, $89B US insured cat losses in 2025. — [More in Confinance](Confinance.md)
-- [Removing dead trees after mass drought mortality enhances fire-adapted tree recruitment and reduces future fire severity](https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2025.1691015/full): Dead-tree removal after Sierra Nevada drought mortality boosts yellow pine seedlings 349% while reducing simulated fire severity over 100 years. — [More in Fire](Fire.md)
+- [New Report: Family Forests Provide Millions in Benefits to Businesses and Communities](https://www.forestfoundation.org/why-we-do-it/family-forest-blog/new-report-family-forests-provide-millions-in-benefits-to-businesses-and-communities/): AFF/Sorenson 'Beyond Carbon' report puts co-benefit values on the Family Forest Carbon Program — $6.4M/yr healthcare savings, protected drinking-water supplies, and 54% better landowner outcomes. — [More in Forest](Forest.md)
+- [With support from loggers and (some) environmentalists, Congress unites on major wildfire bill](https://www.latimes.com/environment/story/2026-09-10/congress-unites-on-fix-our-forests-act): The bipartisan Fix Our Forests Act would fast-track federal forest thinning and expand permitting exemptions — splitting the environmental movement. — [More in Fire](Fire.md) and [Forest](Forest.md)
+- [Wildlife helps regulate the climate & this belongs in policy discussions (commentary)](https://news.mongabay.com/2026/06/wildlife-helps-regulate-the-climate-this-belongs-in-policy-discussions-commentary/): Pinti argues wildlife's ecosystem roles belong in climate models and plans; trophic rewilding could add 6.41 Gt CO₂ uptake/yr. — [More in Climate](Climate.md)
 
 ## Topics
 
@@ -30,6 +30,10 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-chart-line: **[Forecasting](Forecasting.md)**
 
 - :material-tree: **[Forest](Forest.md)**
+
+- :material-sprout: **[Ag](Ag.md)**
+
+- :material-weather-partly-cloudy: **[Climate](Climate.md)**
 
 </div>
 

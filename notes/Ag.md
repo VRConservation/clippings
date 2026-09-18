@@ -1,0 +1,10 @@
+# Ag
+
+**Summary**: Agriculture and food systems as drivers of — and potential solutions to — biodiversity loss, land-use pressure, and climate change.
+**Last updated**: 09-18-2026.
+
+---
+
+- [Food System Impacts on Biodiversity Loss](https://www.ciwf.nl/media/7443948/food-system-impacts-on-biodiversity-loss-feb-2021.pdf): Chatham House/UNEP/CIWF report (Benton, Bieg, Harwatt et al., Feb 2021) — the global food system is the primary driver of accelerating biodiversity loss; proposes three levers: shifting toward plant-based diets, protecting and setting aside land for nature, and nature-friendly farming. Related: [[Ag]], [[Climate]]. Keywords: food systems, biodiversity, agriculture, plant-based diet, land use, habitat loss, UNFSS
+- [Aligning food systems with climate and biodiversity targets](https://www.chathamhouse.org/2022/10/aligning-food-systems-climate-and-biodiversity-targets): Chatham House (Harwatt et al., Oct 2022) — current 2030 climate and biodiversity plans lack ambition with a ~$536B/yr funding gap; food systems contribute a third of global GHG emissions and agricultural land-use change is the leading cause of biodiversity loss, so scaling back animal agriculture is the biggest lever this decade. Related: [[Ag]], [[Climate]]. Keywords: food policy, climate targets, biodiversity, animal agriculture, G7, GHG emissions, 1.5°C
+- [The emerging global crisis of land use](https://www.chathamhouse.org/2023/11/emerging-global-crisis-land-use): Chatham House report (King et al., Nov 2023) framing a deepening 'land crunch' — competition between farming, carbon sequestration, bioenergy and biodiversity could create a 573M ha agricultural land deficit by 2050; introduces the Land Wealth Index and six land-use scenarios. Related: [[Ag]], [[Climate]], [[Geospatial]]. Keywords: land use, land crunch, food security, bioenergy, carbon sequestration, Land Wealth Index, geopolitics
