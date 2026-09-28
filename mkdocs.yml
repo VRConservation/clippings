@@ -64,6 +64,7 @@ nav:
   - Home:
     - index.md
     - Ag: Ag.md
+    - Carbon: Carbon.md
     - Climate: Climate.md
     - Confinance: Confinance.md
     - Exercise: Exercise.md
@@ -73,6 +74,7 @@ nav:
     - Forest: Forest.md
     - Geospatial: Geospatial.md
     - Insurance: Insurance.md
+    - Measures: Measures.md
     - Misc: Misc.md
     - Remote Sensing: Remote_Sensing.md
     - Software: Software.md

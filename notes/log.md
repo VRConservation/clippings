@@ -1,10 +1,13 @@
 # Log
 
 **Summary**: Append-only record of all ingestion operations.
-**Last updated**: 09-18-2026.
+**Last updated**: 09-28-2026.
 
 ---
 
+- 2026-09-28: Ingested "Role of funders in embedding tests in conservation practice" (measures → Measures). Smith/Ockendon et al. in *Conservation Biology*: 25 funders, the Environmental Funders Network, and Conservation Evidence document 11 grant-making approaches for embedding action-level tests (encourage, mandate, ring-fence 1–3% of grant funds, external testing unit) and 8 barriers to testing. Created Measures topic page; added to nav and index.
+- 2026-09-28: Ingested "From Machine Learning to Large-Scale EO Products" (geospatial → Geospatial). Sialelli et al. open IEEE textbook on the EO-to-validated-map pipeline: data landscape, preprocessing, ML dataset/model design, uncertainty quantification, tiled production, design-based validation.
+- 2026-09-28: Ingested "Links.md" (forest, carbon → Forest, Carbon). Two bare data links: Chloris Geospatial's 2026 *State of Global Forest Carbon* (26-year biomass record; degradation outranks deforestation as the main pantropical carbon loss driver) and WRI Land & Carbon Lab's *Land GHG Monitoring System* (five IPCC-aligned datasets, 30 m, 2016–2024). Created Carbon topic page; added to nav and index. Updated Latest Finds.
 - 2026-09-18: Ingested "To Protect Its Water, a Wyoming Town Is Investing in Forest Restoration" (fire, forest → Fire, Forest). WRI on Encampment, WY financing proactive forest thinning via the Clean Water State Revolving Fund ($1.2M loan, 75% principal forgiveness) to protect its water supply from wildfire. Updated Latest Finds.
 - 2026-09-18: Reorganized clippings. Alphabetized tags in index TOC. Moved "Land Use — Our World in Data" (Misc → Ag), "How to Restore a Bootable USB to Normal" (Misc → Software). Created Exped topic page and moved "wild sea kayak adventures: solitude and swell" (Misc → Exped). Added Exped to nav and index.
 - 2026-09-18: Ingested "Ag and biodiversity" (Ag/Forest/Climate → Ag, Forest, Climate). Five sources: CIWF food-system impacts on biodiversity loss (Feb 2021); Chatham House on aligning food systems with climate and biodiversity targets (2022) and the emerging global crisis of land use (2023); AFF/Sorenson Family Forest Carbon Program co-benefits report; Mongabay commentary on wildlife and climate. Created Ag and Climate topic pages, updated Forest, nav, index, and Latest Finds.

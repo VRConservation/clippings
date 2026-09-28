@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 09-18-2026.
+**Last updated**: 09-28-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [To Protect Its Water, a Wyoming Town Is Investing in Forest Restoration](https://www.wri.org/insights/encampment-wyoming-forest-restoration-clean-water-fund): Encampment, WY, becomes the first community to finance proactive forest thinning through Clean Water State Revolving Fund financing — a $1.2M loan (75% principal forgiveness, 0% interest) to protect its single-source drinking water from wildfire. — [More in Fire](Fire.md) and [Forest](Forest.md)
-- [New Report: Family Forests Provide Millions in Benefits to Businesses and Communities](https://www.forestfoundation.org/why-we-do-it/family-forest-blog/new-report-family-forests-provide-millions-in-benefits-to-businesses-and-communities/): AFF/Sorenson 'Beyond Carbon' report puts co-benefit values on the Family Forest Carbon Program — $6.4M/yr healthcare savings, protected drinking-water supplies, and 54% better landowner outcomes. — [More in Forest](Forest.md)
-- [With support from loggers and (some) environmentalists, Congress unites on major wildfire bill](https://www.latimes.com/environment/story/2026-09-10/congress-unites-on-fix-our-forests-act): The bipartisan Fix Our Forests Act would fast-track federal forest thinning and expand permitting exemptions — splitting the environmental movement. — [More in Fire](Fire.md) and [Forest](Forest.md)
+- [Role of funders in embedding tests in conservation practice](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.70309): 25 funders with the Environmental Funders Network and Conservation Evidence identify 11 grant-making approaches for embedding tests of individual conservation actions, plus 8 barriers and how to clear them. — [More in Measures](Measures.md)
+- [From Machine Learning to Large-Scale EO Products](https://ghjuliasialelli.github.io/ML-EO-Maps/): Open IEEE textbook on the full pipeline from raw satellite data to a published, validated map — preprocessing, ML, uncertainty, tiled production, and accuracy assessment. — [More in Geospatial](Geospatial.md)
+- [State of Global Forest Carbon 2026](https://www.chloris.earth/reports/Chloris-2026-State-of-Global-Forest-Carbon.pdf): Chloris Geospatial's 26-year satellite biomass record finds degradation, not deforestation, drives most tropical forest carbon loss. — [More in Forest](Forest.md)
 
 ## Topics
 
@@ -22,6 +22,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 <div class="grid cards group-fire" markdown>
 
 - :material-sprout: **[Ag](Ag.md)**
+
+- :material-co2: **[Carbon](Carbon.md)**
 
 - :material-weather-partly-cloudy: **[Climate](Climate.md)**
 
@@ -34,6 +36,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-tree: **[Forest](Forest.md)**
 
 - :material-office-building: **[Insurance](Insurance.md)**
+
+- :material-clipboard-check-outline: **[Measures](Measures.md)**
 
 </div>
 
