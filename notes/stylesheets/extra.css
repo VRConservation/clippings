@@ -5,6 +5,17 @@
   --color-geospatial: #ccf5d6;
   --color-insurance:  #fffacc;
   --color-other:      #e5ccff;
+  --color-card-link:  #005f55;
+  --color-card-link-hover: #00443a;
+}
+
+/* Dark scheme: same hues, darkened so light text and currentColor icons stay legible */
+[data-md-color-scheme="slate"] {
+  --color-fire:       #4a3524;
+  --color-software:   #1e3550;
+  --color-geospatial: #1a4030;
+  --color-insurance:  #45401a;
+  --color-other:      #362a52;
 }
 
 /* Topic section cards — all same color per group */
@@ -13,3 +24,18 @@
 .grid.cards.group-geospatial > ul > li { background-color: var(--color-geospatial); }
 .grid.cards.group-insurance  > ul > li { background-color: var(--color-insurance); }
 .grid.cards.group-other      > ul > li { background-color: var(--color-other); }
+
+/* Card icons inherit currentColor; keep them clearly visible in both schemes */
+.md-typeset .grid.cards > ul > li .twemoji svg { fill: currentColor; }
+
+/* The default teal only reaches 2.6-3.6:1 on the pale light-scheme cards, so darken it.
+   In slate the theme's own teal already clears 4.5:1 on the dark cards, so it is left alone. */
+.md-typeset .grid.cards > ul > li a,
+.md-typeset .grid.cards > ul > li a:visited {
+  color: var(--color-card-link);
+}
+
+.md-typeset .grid.cards > ul > li a:hover,
+.md-typeset .grid.cards > ul > li a:focus {
+  color: var(--color-card-link-hover);
+}

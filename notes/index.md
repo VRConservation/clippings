@@ -23,7 +23,7 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 - :material-sprout: **[Ag](Ag.md)**
 
-- :material-co2: **[Carbon](Carbon.md)**
+- :material-molecule-co2: **[Carbon](Carbon.md)**
 
 - :material-weather-partly-cloudy: **[Climate](Climate.md)**
 
