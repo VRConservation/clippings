@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 09-28-2026.
+**Last updated**: 10-05-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [Role of funders in embedding tests in conservation practice](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.70309): 25 funders with the Environmental Funders Network and Conservation Evidence identify 11 grant-making approaches for embedding tests of individual conservation actions, plus 8 barriers and how to clear them. — [More in Measures](Measures.md)
-- [From Machine Learning to Large-Scale EO Products](https://ghjuliasialelli.github.io/ML-EO-Maps/): Open IEEE textbook on the full pipeline from raw satellite data to a published, validated map — preprocessing, ML, uncertainty, tiled production, and accuracy assessment. — [More in Geospatial](Geospatial.md)
-- [State of Global Forest Carbon 2026](https://www.chloris.earth/reports/Chloris-2026-State-of-Global-Forest-Carbon.pdf): Chloris Geospatial's 26-year satellite biomass record finds degradation, not deforestation, drives most tropical forest carbon loss. — [More in Forest](Forest.md)
+- [Mapping and classification of trees outside forests using deep learning](https://www.sciencedirect.com/science/article/pii/S2666017226001483): First multiclass deep-learning maps Trees Outside Forests as Forest/Patch/Linear/Tree from 20 cm orthophotos; FT-UNetFormer wins at mIoU 0.74, plain U-Net collapses to 0.48. — [More in Geospatial](Geospatial.md)
+- [Durability by Design](https://us-nature.com/durability-by-design/): US Nature Initiative's four lessons for conservation that survives the next election — shared values plus economics, coalitions built by design, policies made with the people affected, and implementation capacity. — [More in Conservation](Conservation.md)
+- [City2Graph: Geospatial Graphs for Network Analysis and GNNs](https://city2graph.net/latest/): Python library that turns buildings, streets, GTFS feeds, OD matrices and POIs into heterogeneous graphs, then converts the same graph between GeoPandas, NetworkX, PyTorch Geometric and rustworkx. — [More in Geospatial](Geospatial.md)
 
 ## Topics
 
@@ -28,6 +28,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-weather-partly-cloudy: **[Climate](Climate.md)**
 
 - :material-cash-multiple: **[Confinance](Confinance.md)**
+
+- :material-shield-check: **[Conservation](Conservation.md)**
 
 - :material-fire: **[Fire](Fire.md)**
 
@@ -68,6 +70,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-compass: **[Exped](Exped.md)**
 
 - :material-dots-horizontal: **[Misc](Misc.md)**
+
+- :material-school: **[Universities](Universities.md)**
 
 </div>
 
