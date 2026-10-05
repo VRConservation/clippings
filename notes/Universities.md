@@ -1,8 +1,0 @@
-# Universities
-
-**Summary**: Higher education governance, academic freedom, and the corporate donor influence behind today's political pressure on universities.
-**Last updated**: 10-05-2026.
-
----
-
-- [How decades of corporate capture enabled today's assault on universities in the United States](https://www.sciencedirect.com/science/article/pii/S2214629626004366): Healy, Eaton, Lachapelle, Roberts, Stephens and Wishart in *Energy Research & Social Science* argue that the current federal offensive is not a break from the past but its escalation — fifty years of corporate-libertarian donors restructuring university *governance*, not just research. The trail runs from the Olin Foundation's $68M "beachhead" build-out of law and economics programs (1974–2005) and the 1971 Powell Memo, to Koch foundations sending $458.7M to 300+ institutions in 2018–2022 with 45% carrying no public grant agreement. The Academic Freedom Index puts US institutional autonomy at 1.7 (from 3.3 in 2019). By early 2026 the administration had initiated 283 of 532 Project 2025 actions, frozen or terminated 7,800+ grants (~$1.4B still unfunded), and settled with six elite universities for over $400M — all against a compliance architecture (Title VI investigations) built by the previous administration. Prescriptions: publish donor contracts, ban nondisclosure clauses, and give faculty real review power over external funding. Related: [[Universities]], [[Climate]], [[Conservation]]. Keywords: corporate capture, academic freedom, donor influence, Project 2025, shared governance, climate obstruction, Koch Foundation, Olin Foundation, Heritage Foundation, federal research funding

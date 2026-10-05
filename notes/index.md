@@ -57,8 +57,6 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 - :material-map: **[Geospatial](Geospatial.md)**
 
-- :material-satellite-variant: **[Remote Sensing](Remote_Sensing.md)**
-
 </div>
 
 ### Other
@@ -70,8 +68,6 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-compass: **[Exped](Exped.md)**
 
 - :material-dots-horizontal: **[Misc](Misc.md)**
-
-- :material-school: **[Universities](Universities.md)**
 
 </div>
 

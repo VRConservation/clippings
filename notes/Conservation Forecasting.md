@@ -46,7 +46,9 @@ This paper applies the LCF methodology to the Black Mountains of southwestern Ut
 
 ---
 
-### 6. Blankenship, K., Frid, L., & Smith, J.L. (2015). A state-and-transition simulation modeling approach for estimating the historical range of variability. *Science* 2, 253–268.
+### 6. Blankenship, K., Frid, L., & Smith, J.L. (2015). A state-and-transition simulation modeling approach for estimating the historical range of variability. *AIMS Environmental Science*, 2(2), 253–268.
+
+**DOI:** [https://doi.org/10.3934/environsci.2015.2.253](https://doi.org/10.3934/environsci.2015.2.253)
 
 This paper describes how STSMs can be used to estimate the historical range of variability (HRV) for ecological systems—a critical benchmark for measuring ecological departure and guiding restoration targets. The approach runs reference-condition simulations to equilibrium and compares the resulting proportional distribution of vegetation classes to current conditions. This methodology underpins the ecological departure metric used throughout LCF projects, including the Provencher et al. (2021, 2026) studies.
 
