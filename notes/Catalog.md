@@ -2,7 +2,7 @@
 
 
 **Summary**: Inventory of all topic pages — each category/file, when it was created, and how many notes it contains. Auto-generated on every build; do not edit by hand.
-**Last updated**: 10-05-2026.
+**Last updated**: 10-06-2026.
 
 ---
 
@@ -14,7 +14,7 @@
 | Carbon | Carbon.md | 09-28-2026 | 1 |
 | Climate | Climate.md | 09-18-2026 | 1 |
 | Confinance | Confinance.md | 09-15-2026 | 1 |
-| Conservation Forecasting | Conservation Forecasting.md | 10-05-2026 | 4 |
+| Conservation Forecasting | Conservation Forecasting.md | 10-06-2026 | 4 |
 | Conservation | Conservation.md | 10-05-2026 | 3 |
 | Exercise | Exercise.md | 09-03-2026 | 1 |
 | Exped | Exped.md | 09-18-2026 | 1 |
@@ -33,7 +33,7 @@
 - **Carbon** (Carbon.md, created 09-28-2026): 1 notes
 - **Climate** (Climate.md, created 09-18-2026): 1 notes
 - **Confinance** (Confinance.md, created 09-15-2026): 1 notes
-- **Conservation Forecasting** (Conservation Forecasting.md, created 10-05-2026): 4 notes
+- **Conservation Forecasting** (Conservation Forecasting.md, created 10-06-2026): 4 notes
 - **Conservation** (Conservation.md, created 10-05-2026): 3 notes
 - **Exercise** (Exercise.md, created 09-03-2026): 1 notes
 - **Exped** (Exped.md, created 09-18-2026): 1 notes

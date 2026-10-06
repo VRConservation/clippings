@@ -1,5 +1,5 @@
 #forecasting
-[[forecasting]]
+[[Forecasting]]
 # Annotated Bibliography: Landscape Conservation Forecasting
 
 ## Primary Sources (Base Links)

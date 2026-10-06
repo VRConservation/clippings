@@ -73,5 +73,5 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## See also
 
-- [[log|Log]] — append-only record of all operations.
-- [[Catalog|Catalog]] — auto-generated inventory of all topic pages.
+- [[log]] — append-only record of all operations.
+- [[Catalog]] — auto-generated inventory of all topic pages.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-A personal notes organizer maintained by opencode. This folder *is* the Obsidian vault for clipped notes — open it in Obsidian directly, and it also builds and publishes as a MkDocs site on GitHub Pages.
+A personal notes organizer maintained by opencode. This folder *is* the Obsidian vault for clipped notes — open it in Obsidian directly, and it also builds and publishes as a Zensical site on GitHub Pages.
 
 The Obsidian Web Clipper drops new `.md` files directly into this folder (the repo root). Each file has YAML frontmatter, including a `tags` field. The `tags` field drives the organization: each tag maps to a topic page in `notes/`. `notes/` is the site's `docs_dir`.
 
@@ -13,7 +13,7 @@ Prioritize the ability to search and recall specific items.
 ```
 - (repo root)        -- Obsidian vault + clippings inbox; new clipped .md files land here
 - processed/         -- ingested clippings moved here after processing (gitignored, stays local, never pushed)
-- notes/             -- markdown pages for the organized topic notes; also the MkDocs docs_dir
+- notes/             -- markdown pages for the organized topic notes; also the site docs_dir
 - notes/index.md     -- table of contents of all the notes pages + "Latest Finds"
 - notes/log.md       -- append-only record of all operations
 - notes/Catalog.md   -- auto-generated inventory of all topic pages (do not edit by hand)
@@ -26,7 +26,7 @@ Always `git pull` to fetch the latest changes from GitHub first.
 - Look at all `.md` files in the repo root (new clippings).
 - Process each file and all notes inside using the processing instructions below.
 - Once processed, move the original file to the `processed/` folder (gitignored). Note: the clipping is ingested into `notes/` as brief, searchable topic entries; the full source clipping stays in `processed/` for reference.
-- **MkDocs constraint**: `notes/` is the MkDocs `docs_dir`. Any `.md` file linked from a topic page (e.g. a long bibliography or source document) must also live inside `notes/` for the link to resolve on the published site. If a clipping's content is linked rather than summarized inline, copy the file into `notes/` before moving the original to `processed/`.
+- **Site constraint**: `notes/` is the site's `docs_dir`. Any `.md` file linked from a topic page (e.g. a long bibliography or source document) must also live inside `notes/` for the link to resolve on the published site. If a clipping's content is linked rather than summarized inline, copy the file into `notes/` before moving the original to `processed/`.
 
 ## Processing Instructions
 
@@ -40,7 +40,7 @@ When the user adds a new clipped `.md` file to the repo root and asks you to ing
   - `fire`, `wildfire` → `Fire`
   - `software`, `knowledge-base` → `Software`
   - `geospatial`, `spatial` → `Geospatial`
-  - `remote` → `Remote_Sensing`
+  - `remote`, `remote sensing` → `Geospatial`
   - `insurance` → `Insurance`
   - `exercise` → `Exercise`
   - *any other tag* → create a new topic page named Title_Case from the tag
@@ -52,7 +52,7 @@ When the user adds a new clipped `.md` file to the repo root and asks you to ing
 
 ## Update the Website
 
-This folder is published as a MkDocs site on GitHub Pages via GitHub Actions (`.github/workflows/deploy.yml`). After ingesting new notes:
+This folder is published as a Zensical site on GitHub Pages via GitHub Actions (`.github/workflows/deploy.yml`, which runs `python build.py`). After ingesting new notes:
 
 - Update the "Latest Finds" section in `notes/index.md` with the 3 most recently added notes, each from a different topic page. Don't pick these from Misc.
 - Commit and push to GitHub (`git add`, `git commit`, `git push`) so the site rebuilds and redeploys automatically. `processed/` stays gitignored and is never pushed.
@@ -87,6 +87,6 @@ Every note topic page should follow this structure:
 
 ## Rules
 
-- Keep page filenames Title Case with underscores (e.g. `Remote_Sensing.md`), matching the `[[Page_Name]]` used in Related links.
+- Keep page filenames Title Case with underscores (e.g. `Confinance.md`), matching the `[[Page_Name]]` used in Related links.
 - Write in clear, plain language.
 - Always update `notes/log.md` after changes.

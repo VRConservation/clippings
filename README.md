@@ -1,5 +1,5 @@
 # Alias
-ingest runs the knowledge base from the terminal anywhere. It goes to the clippings folder then ingests the new clippings and spins them up to mkdocs folder.
+`ingest` runs the knowledge base from the terminal anywhere. `ingest clips` goes to the clippings folder, ingests the new clippings, and publishes/syncs the site.
 
 # Clippings Knowledge Base
 
@@ -9,8 +9,8 @@ via the Obsidian Web Clipper; opencode reads each file's frontmatter `tags` and
 files it into the right topic page in `notes/`. Published automatically to
 GitHub Pages on every push to `main`.
 
-The site uses an [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
-layout styled after [spatialthoughts/notes](https://spatialthoughts.github.io/notes/),
+The site is built with [Zensical](https://zensical.org/) (the successor to MkDocs,
+built by the same team as Material for MkDocs) using the Material theme, styled after [spatialthoughts/notes](https://spatialthoughts.github.io/notes/),
 with a grid-cards home page grouped by theme.
 
 ## Live site
@@ -22,14 +22,14 @@ with a grid-cards home page grouped by theme.
 
 | File / folder | Purpose |
 |---|---|
-| `notes/` | The vault's published topic pages — this is the MkDocs `docs_dir` and also a normal folder of Markdown files, so it works in Obsidian too. |
+| `notes/` | The vault's published topic pages — this is the site's `docs_dir` and also a normal folder of Markdown files, so it works in Obsidian too. |
 | `notes/index.md` | Grid-cards table of contents + "Latest Finds" highlights, shown as the site's home page. |
 | `notes/log.md` | Append-only changelog of ingestion operations. |
 | `notes/Catalog.md` | Auto-generated inventory of all topic pages and note counts (do not edit by hand). |
 | `processed/` | Clippings that have been ingested into `notes/` (gitignored, stays local, never pushed). |
 | `AGENTS.md` | Instructions opencode follows to process clippings from the repo root into topic pages in `notes/`, and to keep the site in sync. |
 | `mkdocs.yml` | Site configuration — theme, navigation, plugins. |
-| `hooks.py` | Auto-generates `Catalog.md` and adds a live note-count, e.g. `Fire (3)`, next to each topic in the site navigation. |
+| `build.py` | Pre-build step Zensical can't do itself: regenerates `Catalog.md`, adds a live note-count e.g. `Fire (3)` next to each topic in the navigation, writes `mkdocs.generated.yml`, then runs the build. Use `python build.py --serve` to preview. |
 | `requirements.txt` | Pinned Python packages needed to build the site. |
 | `.github/workflows/deploy.yml` | GitHub Actions workflow that builds and deploys the site to GitHub Pages on every push to `main`. |
 | `.obsidian/` | Minimal Obsidian vault config, so this folder opens as a vault immediately. |
@@ -53,18 +53,18 @@ keywords, update `notes/index.md` and `notes/log.md`, move the clipping to
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-mkdocs serve
+python build.py --serve
 ```
 
-Open `http://127.0.0.1:8000` to preview. To build a static copy:
+Open `http://127.0.0.1:8000` to preview. To build a static copy into `site/`:
 
 ```bash
-mkdocs build
+python build.py
 ```
+
+`build.py` must be used rather than calling `zensical` directly — it regenerates
+`notes/Catalog.md` and bakes the nav note counts into `mkdocs.generated.yml`.
 
 ## Deploying
 
-Push to `main`; the included `.github/workflows/deploy.yml` builds the site
-with MkDocs and deploys it to GitHub Pages. Ensure GitHub Pages is set to
-**Settings → Pages → Build and deployment → Source → GitHub Actions** in the
-repo settings.
+Push to `main`; `.github/workflows/deploy.yml` runs `python build.py` and deploys the site to GitHub Pages. Ensure GitHub Pages is set to **Settings → Pages → Build and deployment → Source → GitHub Actions** in the repo settings.
