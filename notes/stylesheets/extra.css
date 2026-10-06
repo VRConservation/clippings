@@ -28,8 +28,7 @@
 /* Card icons inherit currentColor; keep them clearly visible in both schemes */
 .md-typeset .grid.cards > ul > li .twemoji svg { fill: currentColor; }
 
-/* The default teal only reaches 2.6-3.6:1 on the pale light-scheme cards, so darken it.
-   In slate the theme's own teal already clears 4.5:1 on the dark cards, so it is left alone. */
+/* The default teal only reaches 2.6-3.6:1 on the pale light-scheme cards, so darken it. */
 .md-typeset .grid.cards > ul > li a,
 .md-typeset .grid.cards > ul > li a:visited {
   color: var(--color-card-link);
@@ -38,4 +37,16 @@
 .md-typeset .grid.cards > ul > li a:hover,
 .md-typeset .grid.cards > ul > li a:focus {
   color: var(--color-card-link-hover);
+}
+
+/* In slate the dark-teal link color vanishes on the dark cards, so use white text
+   (and currentColor icons) there instead. */
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li a,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li a:visited {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li a:hover,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li a:focus {
+  color: #bce3dc;
 }
