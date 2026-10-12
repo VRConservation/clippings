@@ -1,8 +1,9 @@
 # Confinance
 
 **Summary**: Conservation finance — integrating environmental protection with capital markets, free enterprise, and infrastructure development.
-**Last updated**: 09-15-2026.
+**Last updated**: 10-12-2026.
 
 ---
 
+- [Forestry Analytics for Carbon Tracking (FACT) platform](https://forestryanalytics.org/): Free public-use platform from the U.S. Endowment for Forestry and Communities, USDA Forest Service and ten forest sector partners (American Forest Foundation, American Wood Council, Composite Panel Association, Decorative Hardwoods Association, Hardwood Federation, HMA, NAFO, NHLA, NWFA, Woodpack Global) that pulls standardized U.S. forest and harvested wood product carbon data into one place — the fragmentation and cost of compiling it being the problem it aims to solve for landowners and buyers reporting carbon. Beta tools cover the carbon journey stage by stage: forest stand, landscape and embodied carbon, plus a carbon displacement factor, with published methodologies and a glossary. Version 1 planned for summer 2027. Related: [[Confinance]], [[Carbon]], [[Forest]]. Keywords: forest carbon, MRV, embodied carbon, carbon displacement factor, harvested wood products, life cycle assessment, USDA Forest Service, standardization, carbon accounting
 - [Three Eras: The environmental movement needs a course correction](https://heavylifting.substack.com/p/three-eras): Larry Selzer (The Conservation Fund) argues the environmental movement must shift from its regulatory "say no" posture to a "convergence" model that integrates conservation with capital markets and infrastructure buildout — citing 8,200+ energy projects queued for grid interconnection and $89B in 2025 US insured catastrophe losses. Related: [[Insurance]], [[Fire]], [[Forest]]. Keywords: conservation finance, convergence, infrastructure, clean energy, natural catastrophe, risk, free enterprise

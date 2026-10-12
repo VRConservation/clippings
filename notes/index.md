@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 10-05-2026.
+**Last updated**: 10-12-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
+- [The value of wetlands in reducing riverine flood losses](https://www.insuranceforgood.org/blog/wetlands-value-riverine-flood-losses): Wetland loss since 1985 has added $5,915 per riverine flood claim and $10.1B nationally — 9.0% of all such payments, and likely over $33B once uninsured losses are counted. — [More in Insurance](Insurance.md)
+- [Forestry Analytics for Carbon Tracking (FACT)](https://forestryanalytics.org/): USDA Forest Service, the U.S. Endowment and ten forest sector partners launch one place for standardized U.S. forest and harvested wood product carbon data — stand, landscape and embodied carbon plus a carbon displacement factor. — [More in Confinance](Confinance.md)
 - [Mapping and classification of trees outside forests using deep learning](https://www.sciencedirect.com/science/article/pii/S2666017226001483): First multiclass deep-learning maps Trees Outside Forests as Forest/Patch/Linear/Tree from 20 cm orthophotos; FT-UNetFormer wins at mIoU 0.74, plain U-Net collapses to 0.48. — [More in Geospatial](Geospatial.md)
-- [Durability by Design](https://us-nature.com/durability-by-design/): US Nature Initiative's four lessons for conservation that survives the next election — shared values plus economics, coalitions built by design, policies made with the people affected, and implementation capacity. — [More in Conservation](Conservation.md)
-- [City2Graph: Geospatial Graphs for Network Analysis and GNNs](https://city2graph.net/latest/): Python library that turns buildings, streets, GTFS feeds, OD matrices and POIs into heterogeneous graphs, then converts the same graph between GeoPandas, NetworkX, PyTorch Geometric and rustworkx. — [More in Geospatial](Geospatial.md)
 
 ## Topics
 
