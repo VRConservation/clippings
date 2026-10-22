@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 10-12-2026.
+**Last updated**: 10-22-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [The value of wetlands in reducing riverine flood losses](https://www.insuranceforgood.org/blog/wetlands-value-riverine-flood-losses): Wetland loss since 1985 has added $5,915 per riverine flood claim and $10.1B nationally — 9.0% of all such payments, and likely over $33B once uninsured losses are counted. — [More in Insurance](Insurance.md)
+- [Detecting old-growth forests from Sentinel-1/2 and geospatial foundation model embeddings](https://github.com/ratsakatika/detecting-old-growth-forests): TESSERA and Sentinel features both carry a spatially robust old-growth signal across Romania's Southern Carpathians, but 10 km train–test buffers shrink the foundation model's edge to noise — buffered validation matters more than embeddings. — [More in Geospatial](Geospatial.md)
+- [The U.S. Fisheries Insurance Gap](https://www.insuranceforgood.org/blog/us-fisheries-insurance-gap): Why wild-capture fisheries have no federal insurance program while crops do — subsidized scale versus ad-hoc NOAA aid that took a median 3.4 years to pay out. — [More in Insurance](Insurance.md)
 - [Forestry Analytics for Carbon Tracking (FACT)](https://forestryanalytics.org/): USDA Forest Service, the U.S. Endowment and ten forest sector partners launch one place for standardized U.S. forest and harvested wood product carbon data — stand, landscape and embodied carbon plus a carbon displacement factor. — [More in Confinance](Confinance.md)
-- [Mapping and classification of trees outside forests using deep learning](https://www.sciencedirect.com/science/article/pii/S2666017226001483): First multiclass deep-learning maps Trees Outside Forests as Forest/Patch/Linear/Tree from 20 cm orthophotos; FT-UNetFormer wins at mIoU 0.74, plain U-Net collapses to 0.48. — [More in Geospatial](Geospatial.md)
 
 ## Topics
 
