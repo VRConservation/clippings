@@ -139,7 +139,9 @@ def main():
     OUT_CONFIG.write_text(generated)
     print(f"wrote {OUT_CONFIG.relative_to(ROOT)}")
 
-    cmd = ["zensical", "serve" if serve else "build", "-f", str(OUT_CONFIG)]
+    # Run zensical through the current interpreter rather than a bare "zensical"
+    # on PATH, so `.venv/bin/python build.py` works without activating the venv.
+    cmd = [sys.executable, "-m", "zensical", "serve" if serve else "build", "-f", str(OUT_CONFIG)]
     result = subprocess.run(cmd, cwd=ROOT, check=False)
     sys.exit(result.returncode)
 

@@ -25,6 +25,9 @@ Always `git pull` to fetch the latest changes from GitHub first.
 
 - Look at all `.md` files in the repo root (new clippings).
 - Process each file and all notes inside using the processing instructions below.
+  Read each one whole; if you only need part of a file, use the read tool's own
+  line limit (or a shell command) — never pass a pipe such as `| head -30` as part
+  of a file path, because it is treated as a filename and fails.
 - Once processed, move the original file to the `processed/` folder (gitignored). Note: the clipping is ingested into `notes/` as brief, searchable topic entries; the full source clipping stays in `processed/` for reference.
 - **Site constraint**: `notes/` is the site's `docs_dir`. Any `.md` file linked from a topic page (e.g. a long bibliography or source document) must also live inside `notes/` for the link to resolve on the published site. If a clipping's content is linked rather than summarized inline, copy the file into `notes/` before moving the original to `processed/`.
 
@@ -33,7 +36,9 @@ Always `git pull` to fetch the latest changes from GitHub first.
 When the user adds a new clipped `.md` file to the repo root and asks you to ingest it:
 
 * Read the new file's YAML frontmatter, especially the `tags` field.
-* Visit the `source` URL (if present) and generate an accurate short description (1-2 lines).
+* Write an accurate 1-2 line description. If the clipping already contains an
+  abstract or summary, use it; only visit the `source` URL when the clipping
+  lacks enough detail.
 * Identify the main topic from the frontmatter tags.
 * Read `notes/index.md` first to find relevant topic pages.
 * Map each frontmatter tag to a topic page:
@@ -48,7 +53,9 @@ When the user adds a new clipped `.md` file to the repo root and asks you to ing
 * Add a new item to the main topic page, keeping newer notes at the top.
 * Add back-links ([[page-name]]) to connect related topics. If a related topic page does not exist, create it.
 * Update `notes/index.md` with new pages and one-line descriptions (grid cards).
-* Append an entry to `notes/log.md` with the date, source name, and what changed.
+* Record the change in `notes/log.md`. The file is **newest-first**: insert the new
+  entry at the top, immediately below the `---` rule — do not append at the bottom.
+  Also update the `**Last updated**` date at the top of the file.
 
 ## Update the Website
 
