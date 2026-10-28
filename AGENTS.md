@@ -47,7 +47,6 @@ When the user adds a new clipped `.md` file to the repo root and asks you to ing
   - `geospatial`, `spatial` → `Geospatial`
   - `remote`, `remote sensing` → `Geospatial`
   - `insurance` → `Insurance`
-  - `exercise` → `Exercise`
   - *any other tag* → create a new topic page named Title_Case from the tag
   - *untagged/empty tag* → `Misc`
 * Add a new item to the main topic page, keeping newer notes at the top.
