@@ -63,10 +63,6 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 <div class="grid cards group-other" markdown>
 
-- :material-dumbbell: **[Exercise](Exercise.md)**
-
-- :material-compass: **[Exped](Exped.md)**
-
 - :material-dots-horizontal: **[Misc](Misc.md)**
 
 </div>
