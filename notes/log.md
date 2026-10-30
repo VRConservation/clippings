@@ -1,9 +1,11 @@
 # Log
 
 **Summary**: Append-only record of all ingestion operations.
-**Last updated**: 10-22-2026.
+**Last updated**: 10-30-2026.
 
 ---
+
+- 2026-10-30: Ingested 8 clippings. Created two topic pages from new tags: **SPC** (`spc`) and **Connectivity** (`connectivity`); both are cross-linked to Geospatial. `spc` → SPC: "Toward a Unified Smart Point Cloud Framework" (Salaheldin, Shaker & Li, *Buildings* 16(2):293, 2026 — PRISMA review of 58 studies; SPC formalised as queryable, ontology-linked, provenance-aware; eight-module pipeline; open problems in scale, domain transfer, 4D updates and sensor fusion), "Smart Point Clouds" (working definition after Poux's Mapscaping episode, the term traced to Poux et al. 2016 in ISPRS Annals, plus an O'Reilly overview on semantics, topology, Gaussian splatting and spatial AI), and "3D Data Science with Python" (Poux, O'Reilly 2025 — COLMAP/RealityScan acquisition, PointNet vs 3D CNNs, semantic segmentation, Open3D/PyVista, Vancouver LiDAR). `connectivity` → Connectivity: "A comprehensive framework to assess multi-species landscape connectivity" (Prima et al., MEE — 193 vertebrates clustered into 11 mammal/19 bird groups, Omniscape circuit theory plus network metrics for 1,619 French protected areas, uncertainty propagated) and "Movement, Water, Connection" (Angulo Lopez, Zenodo preprint — pure-Python circuit theory for the Greater Côa Valley with fire, barrier and heritage penalties, `scipy.sparse` solver, GBIF-trained Random Forest resistance). `forecasting` → Forecasting: "State-and-transition simulation models" (Daniel et al. 2016, MEE 7(11):1413–1423 — the STSM framework, counters, target-area transitions, ST-Sim/SyncroSim, Hawai'i LULC case) and "Forecasting for intended consequences" (Mozelewski & Scheller, CSP — forecasting as an antidote to status-quo bias, with restoration, fisher, chestnut and assisted-migration cases). `geospatial` → Geospatial: Portolan (serverless SDI as files in a bucket: GeoParquet/PMTiles/COG + STAC, `rashid` validator, CLI and agent skills, Fields of the World at 369 TB) alongside the three geospatial-tagged notes above. Added SPC and Connectivity to `mkdocs.yml` nav and the index cards (Connectivity under Risk & Environment, SPC under Geospatial & Data); Latest Finds now draws from SPC, Connectivity and Forecasting. Moved all 8 clippings to `processed/`.
 
 - 2026-10-28: Removed Exercise page and 5 mobility exercises note and the Exped note page and 'wild sea kayak adventures: solitude and swell'. Removed those from mkdocs.yml and index.md
 

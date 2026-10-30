@@ -1,7 +1,7 @@
 # Clippings
 
 **Summary**: A searchable personal knowledge base organized from Obsidian clippings, grouped by the tags in each note's frontmatter.
-**Last updated**: 10-22-2026.
+**Last updated**: 10-30-2026.
 
 ---
 
@@ -11,9 +11,9 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 
 ## Latest Finds
 
-- [Detecting old-growth forests from Sentinel-1/2 and geospatial foundation model embeddings](https://github.com/ratsakatika/detecting-old-growth-forests): TESSERA and Sentinel features both carry a spatially robust old-growth signal across Romania's Southern Carpathians, but 10 km train–test buffers shrink the foundation model's edge to noise — buffered validation matters more than embeddings. — [More in Geospatial](Geospatial.md)
-- [The U.S. Fisheries Insurance Gap](https://www.insuranceforgood.org/blog/us-fisheries-insurance-gap): Why wild-capture fisheries have no federal insurance program while crops do — subsidized scale versus ad-hoc NOAA aid that took a median 3.4 years to pay out. — [More in Insurance](Insurance.md)
-- [Forestry Analytics for Carbon Tracking (FACT)](https://forestryanalytics.org/): USDA Forest Service, the U.S. Endowment and ten forest sector partners launch one place for standardized U.S. forest and harvested wood product carbon data — stand, landscape and embodied carbon plus a carbon displacement factor. — [More in Confinance](Confinance.md)
+- [Toward a Unified Smart Point Cloud Framework](https://drive.google.com/file/d/14RXEzupZAjH3qg6OoS_ooX8cOHX4ChC8/view): Salaheldin, Shaker & Li review 58 studies and formalise smart point clouds as queryable, ontology-linked, provenance-aware models — then distil an eight-module pipeline from acquisition to modelling. — [More in SPC](SPC.md)
+- [Movement, Water, Connection](https://zenodo.org/records/22979020): A pure-Python circuit-theory workflow for the Greater Côa Valley that adds fire, barrier and heritage penalties to a multi-species connectivity model — and pairs the maps with field art. — [More in Connectivity](Connectivity.md)
+- [State-and-transition simulation models](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12597): Daniel et al.'s STSM framework — discrete cells, per-process transition matrices, age/TST counters and target-area transitions — plus ST-Sim and a 50-year Hawai'i land-use case. — [More in Forecasting](Forecasting.md)
 
 ## Topics
 
@@ -28,6 +28,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 - :material-weather-partly-cloudy: **[Climate](Climate.md)**
 
 - :material-cash-multiple: **[Confinance](Confinance.md)**
+
+- :material-vector-polyline: **[Connectivity](Connectivity.md)**
 
 - :material-shield-check: **[Conservation](Conservation.md)**
 
@@ -56,6 +58,8 @@ A searchable website generated from an [Obsidian](https://obsidian.md/) vault of
 <div class="grid cards group-geospatial" markdown>
 
 - :material-map: **[Geospatial](Geospatial.md)**
+
+- :material-cube-outline: **[SPC](SPC.md)**
 
 </div>
 

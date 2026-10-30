@@ -69,6 +69,7 @@ nav:
     - Carbon: Carbon.md
     - Climate: Climate.md
     - Confinance: Confinance.md
+    - Connectivity: Connectivity.md
     - Conservation: Conservation.md
     - Fire: Fire.md
     - Forecasting: Forecasting.md
@@ -77,6 +78,7 @@ nav:
     - Insurance: Insurance.md
     - Measures: Measures.md
     - Misc: Misc.md
+    - SPC: SPC.md
     - Software: Software.md
     - Changelog: log.md
     - Catalog: Catalog.md
